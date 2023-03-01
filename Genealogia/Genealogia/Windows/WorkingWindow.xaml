@@ -1,0 +1,59 @@
+<windowex:WindowEx
+    x:Class="Genealogia.Windows.WorkingWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    xmlns:windowex="using:WinUIEx"
+    MinWidth="500"
+    MinHeight="500">
+
+    <windowex:WindowEx.Backdrop>
+        <windowex:MicaSystemBackdrop/>
+    </windowex:WindowEx.Backdrop>
+
+    <!-- Organisation avec une barre de titre qui remplace celle par défaut d'une hauteur fixe de 32 
+         + Ajout d'une zone de page en dessous de la barre de titre (type Frame) -->
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid x:Name="TitleBar"
+              Grid.Row="0"
+              Height="32"
+              IsHitTestVisible="True"
+              VerticalAlignment="Top">
+
+            <Image Source="/Assets/StoreLogo.ico"
+                   HorizontalAlignment="Left"
+                   Width="16"
+                   Height="16" />
+
+            <TextBlock Text="Genealogia"
+                       VerticalAlignment="Center"
+                       TextWrapping="NoWrap"
+                       Style="{StaticResource CaptionTextBlockStyle}"
+                       Margin="28,0,0,0"/>
+        </Grid>
+
+        <Grid Grid.Row="1">
+            <ScrollViewer ZoomMode="Enabled"
+                          HorizontalScrollBarVisibility="Auto"
+                          HorizontalScrollMode="Enabled"
+                          VerticalScrollBarVisibility="Auto"
+                          VerticalScrollMode="Enabled"
+                          IsVerticalScrollChainingEnabled="True"
+                          IsTabStop="False">
+
+                <Frame x:Name="RootFrame"/>
+            </ScrollViewer>
+        </Grid>
+
+    </Grid>
+
+
+</windowex:WindowEx>

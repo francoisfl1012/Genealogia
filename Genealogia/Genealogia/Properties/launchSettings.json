@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "Genealogia (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "Genealogia (Unpackaged)": {
+      "commandName": "Project"
+    },
+    "WSL": {
+      "commandName": "WSL2",
+      "distributionName": ""
+    }
+  }
+}
