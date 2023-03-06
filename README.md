@@ -3,10 +3,10 @@
     <img src="https://via.placeholder.com/72" alt="Genealogia" width=72 height=72>
   </a>
 
-  <h3 align="center">Logo</h3>
+  <h3 align="center">Genealogia</h3>
 
   <p align="center">
-    Short description
+    Genealogia is a family tree design software that is easy and user-friendly.
     <br>
     <a href="https://Genealogia/issues/new?template=bug.md">Report bug</a>
     ·
