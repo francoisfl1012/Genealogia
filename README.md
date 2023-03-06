@@ -47,7 +47,7 @@
 ## Remerciements
 
 
-## Copyright and licence
+## Copyright et licence
 
 Déploiement de l'applicatif sous la [MIT License](https://Genealogia/blob/main/LICENSE).
 
