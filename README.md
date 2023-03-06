@@ -21,7 +21,7 @@
 - [Statut](#statut)
 - [Contenu de l'application](#contenu-de-l-application)
 - [Contributeurs](#contributeurs)
-- [Créateur](#createur)
+- [Créateur](#créateur)
 - [Remerciements](#remerciements)
 - [Copyright et licence](#copyright-et-licence)
 
