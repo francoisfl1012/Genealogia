@@ -6,7 +6,7 @@
   <h3 align="center">Genealogia</h3>
 
   <p align="center">
-    Genealogia is a family tree design software that is easy and user-friendly.
+    Genealogia est un logiciel de création d'arbre généalogique rapide et simple d'utilisation.
     <br>
     <a href="https://github.com/francoisfl1012/Genealogia/issues/new?template=bug.md">Report bug</a>
     ·
@@ -17,41 +17,37 @@
 
 ## Table of contents
 
-- [Quick start](#quick-start)
+- [A propos](#a-propos)
 - [Status](#status)
-- [What's included](#whats-included)
-- [Bugs and feature requests](#bugs-and-feature-requests)
+- [Contenu](#contenu)
 - [Contributing](#contributing)
 - [Creators](#creators)
 - [Thanks](#thanks)
 - [Copyright and license](#copyright-and-license)
 
 
-## Quick start
+## A propos
 
 
 ## Status
 
 
-## What's included
+## Contenu de l'application
 
 
-## Bugs and feature requests
+## Contributeurs
 
 
-## Contributing
-
-
-## Creators
+## Créateur
 
 **François F**
 
 - <https://github.com/francoisfl1012>
 
-## Thanks
+## Remerciements
 
 
-## Copyright and license
+## Copyright and licence
 
-Code released under the [MIT License](https://Genealogia/blob/main/LICENSE).
+Déploiement de l'applicatif sous la [MIT License](https://Genealogia/blob/main/LICENSE).
 
