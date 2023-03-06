@@ -8,9 +8,9 @@
   <p align="center">
     Genealogia is a family tree design software that is easy and user-friendly.
     <br>
-    <a href="https://Genealogia/issues/new?template=bug.md">Report bug</a>
+    <a href="https://github.com/francoisfl1012/Genealogia/issues/new?template=bug.md">Report bug</a>
     ·
-    <a href="https://Genealogia/issues/new?template=feature.md&labels=feature">Request feature</a>
+    <a href="https://github.com/francoisfl1012/Genealogia/issues/new?template=feature.md&labels=feature">Request feature</a>
   </p>
 </p>
 
