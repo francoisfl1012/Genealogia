@@ -44,13 +44,12 @@
 
 ## Creators
 
-**Creator 1**
+**François F**
 
-- <https://github.com/usernamecreator1>
+- <https://github.com/francoisfl1012>
 
 ## Thanks
 
-Some Text
 
 ## Copyright and license
 
