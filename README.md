@@ -49,5 +49,5 @@
 
 ## Copyright et licence
 
-Déploiement de l'applicatif sous la [MIT License](https://Genealogia/blob/main/LICENSE).
+Déploiement de l'applicatif sous la [MIT License](https://github.com/francoisfl1012/Genealogia/blob/main/LICENSE).
 
