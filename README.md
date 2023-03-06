@@ -19,7 +19,7 @@
 
 - [A propos](#a-propos)
 - [Statut](#statut)
-- [Contenu de l'application](#contenu-de-l-application)
+- [Contenu de l'application](#contenu-de-application)
 - [Contributeurs](#contributeurs)
 - [Créateur](#créateur)
 - [Remerciements](#remerciements)
