@@ -15,21 +15,21 @@
 </p>
 
 
-## Table of contents
+## Sommaire
 
 - [A propos](#a-propos)
-- [Status](#status)
+- [Statut](#statut)
 - [Contenu](#contenu)
-- [Contributing](#contributing)
-- [Creators](#creators)
-- [Thanks](#thanks)
-- [Copyright and license](#copyright-and-license)
+- [Contributeurs](#contributeurs)
+- [Créateur](#createur)
+- [Remerciements](#remerciements)
+- [Copyright et licence](#copyright-et-licence)
 
 
 ## A propos
 
 
-## Status
+## Statut
 
 
 ## Contenu de l'application
