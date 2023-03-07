@@ -1,6 +1,6 @@
 <p align="center">
   <a href="">
-    <img src="https://github.com/francoisfl1012/Genealogia/blob/main/Genealogia/Genealogia/Assets/StoreLogo.png" alt="Genealogia" width=150 height=150>
+    <img src="https://github.com/francoisfl1012/Genealogia/blob/main/Genealogia/Genealogia/Assets/StoreLogo.png" alt="Genealogia" width=200 height=200>
   </a>
 
   <h3 align="center">Genealogia</h3>
