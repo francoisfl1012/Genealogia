@@ -1,0 +1,162 @@
+<Page
+    x:Class="Genealogia.Pages.StartingPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Margin="50">
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Column="0">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <TextBlock Text="Bienvenue sur Genealogia"
+                       Style="{StaticResource TitleTextBlockStyle}"
+                       HorizontalAlignment="Left"
+                       Grid.Row="0"/>
+
+            <TextBlock Text="Ouvrir les projets recents"
+                       Style="{StaticResource SubtitleTextBlockStyle}"
+                       Margin="0,40,0,0"
+                       HorizontalAlignment="Left"
+                       Grid.Row="1"/>
+
+            <AutoSuggestBox PlaceholderText="Rechercher un projet"
+                            QueryIcon="Find"
+                            Width="350"
+                            Margin="0,20,0,0"
+                            HorizontalAlignment="Left"
+                            Grid.Row="2"/>
+
+            <ListView   x:Name="ProjectList"
+                        Margin="0,15,0,0"
+                        BorderThickness="1"
+                        BorderBrush="{ThemeResource SystemControlForegroundBaseMediumLowBrush}"
+                        MinWidth="350"
+                        MaxWidth="1940"
+                        MinHeight="300"
+                        MaxHeight="700"
+                        HorizontalAlignment="Left"
+                        Grid.Row="3"/>
+
+        </Grid>
+
+        <Grid   Grid.Column="1"
+                HorizontalAlignment="Right">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <TextBlock Text="Demarrer"
+                       Style="{StaticResource SubtitleTextBlockStyle}"
+                       HorizontalAlignment="Left"
+                       Margin="0,78,0,0"
+                       TextWrapping="NoWrap"
+                       Grid.Row="0"/>
+
+            <Button x:Name="Bouton_CreerProjet"
+                    VerticalAlignment="Top"
+                    HorizontalAlignment="Left"
+                    CornerRadius="3"
+                    Width="350"
+                    Grid.Row="1"
+                    Margin="0,20,0,0">
+
+                <Grid>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <FontIcon FontFamily="Segoe MDL2 Assets"
+                                  Glyph="&#xE1DA;"
+                                  HorizontalAlignment="Left"
+                                  Margin="0,0,40,0"
+                                  Grid.Column="0"/>
+
+                    <StackPanel Grid.Column="1"
+                                Orientation="Vertical">
+
+                        <TextBlock  Text="Creer un nouveau projet"
+                                    Style="{StaticResource SubheaderTextBlockStyle}"
+                                    FontSize="18"
+                                    FontWeight="SemiBold"
+                                    HorizontalAlignment="Left"
+                                    TextWrapping="NoWrap"/>
+
+                        <TextBlock  Text="Choisir un modele vierge contenant tous les outils pour bien commencer"
+                                    Style="{StaticResource CaptionTextBlockStyle}"
+                                    FontSize="16"
+                                    FontWeight="Light"
+                                    Margin="0,5,0,0"
+                                    HorizontalAlignment="Left"
+                                    TextWrapping="Wrap"/>
+                    </StackPanel>
+                </Grid>
+            </Button>
+
+            <Button x:Name="Bouton_OuvrirProjet"
+                    VerticalAlignment="Top"
+                    HorizontalAlignment="Left"
+                    CornerRadius="3"
+                    Width="350"
+                    Grid.Row="2"
+                    Margin="0,10,0,0">
+
+                <Grid>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <FontIcon FontFamily="Segoe MDL2 Assets"
+                                  Glyph="&#xE838;"
+                                  HorizontalAlignment ="Left"
+                                  Margin="0,0,40,0"
+                                  Grid.Column="0"/>
+
+                    <StackPanel Grid.Column="1"
+                                Orientation="Vertical">
+
+                        <TextBlock  Text="Ouvrir un projet"
+                                    Style="{StaticResource SubheaderTextBlockStyle}"
+                                    FontSize="18"
+                                    FontWeight="SemiBold"
+                                    HorizontalAlignment="Left"
+                                    TextWrapping="NoWrap"/>
+
+                        <TextBlock  Text="Ouvrir un modele ou une solution a partir d'un emplacement local"
+                                    Style="{StaticResource CaptionTextBlockStyle}"
+                                    FontSize="16"
+                                    FontWeight="Light"
+                                    Margin="0,5,0,0"
+                                    HorizontalAlignment="Left"
+                                    TextWrapping="Wrap"/>
+                    </StackPanel>
+                </Grid>
+            </Button>
+
+        </Grid>
+
+
+    </Grid>
+
+</Page>

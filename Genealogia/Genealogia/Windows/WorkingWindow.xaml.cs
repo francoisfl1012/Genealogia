@@ -2,21 +2,20 @@ using WinUIEx;
 
 using Genealogia.Pages;
 
-namespace Genealogia.Windows
+namespace Genealogia.Windows;
+
+public sealed partial class WorkingWindow : WindowEx
 {
-    public sealed partial class WorkingWindow : WindowEx
+    public WorkingWindow()
     {
-        public WorkingWindow()
-        {
-            this.InitializeComponent();
+        this.InitializeComponent();
 
-            // Modification de la barre de titre
-            AppWindow.SetIcon(Path.Combine(AppContext.BaseDirectory, "Assets/StoreLogo.ico"));  // TODO : Vérifier si cette ligne est utile, une fois le logo défini ??
-            ExtendsContentIntoTitleBar = true;
-            SetTitleBar(TitleBar);
+        // Modification de la barre de titre
+        AppWindow.SetIcon(Path.Combine(AppContext.BaseDirectory, "Assets/StoreLogo.ico"));  // TODO : Vérifier si cette ligne est utile, une fois le logo défini ??
+        ExtendsContentIntoTitleBar = true;
+        SetTitleBar(TitleBar);
 
 
-            RootFrame.Navigate(typeof(MainWorkingPage));
-        }
+        RootFrame.Navigate(typeof(MainWorkingPage));
     }
 }

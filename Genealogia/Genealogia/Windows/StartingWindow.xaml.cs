@@ -16,7 +16,7 @@ public sealed partial class StartingWindow : WindowEx
         SetTitleBar(TitleBar);
 
         
-        RootFrame.Navigate(typeof(MainWorkingPage));
+        RootFrame.Navigate(typeof(StartingPage));
     }
 
 }

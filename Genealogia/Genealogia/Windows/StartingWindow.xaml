@@ -6,15 +6,14 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     xmlns:windowex="using:WinUIEx"
-    MinWidth="500"
-    MinHeight="500">
+    MinWidth="950"
+    MinHeight="650">
 
-    <!-- Définition des propriétés du thème de l'application -->
     <windowex:WindowEx.Backdrop>
         <windowex:MicaSystemBackdrop/>
     </windowex:WindowEx.Backdrop>
     
-    <!-- Organisation avec une barre de titre qui remplace celle par défaut d'une hauteur fixe de 32 
+    <!-- Organisation avec une barre de titre vide qui remplace celle par défaut d'une hauteur fixe de 32 
          + Ajout d'une zone de page en dessous de la barre de titre (type Frame) -->
     <Grid>
         
@@ -26,14 +25,14 @@
         <Grid x:Name="TitleBar"
               Grid.Row="0"
               Height="32"
-              IsHitTestVisible="True"
-              VerticalAlignment="Top">
+              VerticalAlignment="Top"
+              Background="{ThemeResource AppBarBorderThemeBrush}">
 
             <Image Source="/Assets/StoreLogo.ico"
                    HorizontalAlignment="Left"
                    Width="16"
                    Height="16" />
-            
+
             <TextBlock Text="Genealogia"
                        VerticalAlignment="Center"
                        TextWrapping="NoWrap"

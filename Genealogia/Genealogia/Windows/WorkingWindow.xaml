@@ -6,8 +6,8 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     xmlns:windowex="using:WinUIEx"
-    MinWidth="500"
-    MinHeight="500">
+    MinWidth="750"
+    MinHeight="750">
 
     <windowex:WindowEx.Backdrop>
         <windowex:MicaSystemBackdrop/>
